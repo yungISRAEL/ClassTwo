@@ -52,7 +52,7 @@ app.get("/worldcups", (req, res) => {
 })
 
 app.get("/hurray", (req, res) => {
-    res.send("I buit my first APi")
+    res.send("I buit my first api")
     // console.log('I have accessed the Path');
     
 })
