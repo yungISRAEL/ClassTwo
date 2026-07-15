@@ -45,8 +45,14 @@ app.get('/', (req, res) => {
     
 })
 
-app.get("/worldcup", (req, res) => {
+app.get("/worldcups", (req, res) => {
     res.send(worldCup)
+    // console.log('I have accessed the Path');
+    
+})
+
+app.get("/hurray", (req, res) => {
+    res.send("I buit my first APi")
     // console.log('I have accessed the Path');
     
 })
