@@ -39,7 +39,7 @@ const worldCup = [
 
 ]
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Welcome to Backend Class')
     console.log('I have accessed the Path');
     
